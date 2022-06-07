@@ -1,0 +1,28 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+for
+&&, ||, !
+
+for
+Esta sentencia se utiliza para crear un bucle repetitivo, lo cual ejecuta toda las lineas que se encuentran dentro del for una cierta cantidad de
+veces. La cantidad de veces que se va a repetir se comprueba atraves de una condicion que se prueba cada vez que el bucle inicia, si la
+condicion es falsa, termina la ejecucion del bucle es decir no ingresa a ejecutar las lineas dentro del for.
+
+operador logico &&
+se utiliza este operador para unir y comprobar 2 o mas pruebas logicas y determinar su valor final verdadero o falso. Es decir
+tomemos como ejemplo lo cotidiano que uno realiza, para ir a trabajar tienen que ocurrir 2 cosas: 1 tengo q estar levantado "Y" 2 tengo que estar
+vestido. solo podre ir a trabajar si ambas cosas suceden es decir AMBAS son verdaderas, caso contrario puedo estar levantado pero si no estoy
+cambiado no puedo ir a trabajar, o puedo estar vestido pero si no me levanto tampoco puedo ir a trabajar.
+ej:  levantado && cambiado    -> levantado y cambiado
+
+operador logico ||
+siginifica "ó" se utiliza para combrobar 2 o mas pruebas o condicion. Cuando con una de las 2 condiciones sea verdadera o ambas el 
+resultado final de la union "ó" de esas 2 prueba será verdadero. Por ejemplo: solo puedo decir que soy un deportista si practico al menos
+un deporte, si no practico ninguno, soy un vago
+
+ej:   hago_futbol || no_hago_tenis    -> practico futbol ó no practico tenis  -> soy deportista
+     hago_futbol || hago_tenis    -> practico futbol ó practico tenis  -> soy deportista (ambas sin verdaderas)
+     no_hago_futbol || hago_tenis    -> no practico futbol ó si practico tenis  -> soy deportista
+     no_hago futbol || no_hago tenis   -> no soy deportista
+
+operador logico !
+se utiliza para convertir un resultado verdadero en falso o un resultado falso en verdadero, como si estariamos negando
