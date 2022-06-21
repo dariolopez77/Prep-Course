@@ -1,0 +1,12 @@
+array
+el array o arreglo se crea y se utiliza con la finalidad de guardar información, valores dentro de cada celda/indice para su posterior uso.
+Hagamos de cuenta que tenemos unos casilleros como los de las escuelas y cada casillero se identifica con un nombre, en este caso se utiliza
+numeros comenzado desde 0 en adelante. los arreglos pueden contener tambien columnas como si fueran casilleros debajo de otros identificados
+por filas tambien enumeradas desde 0.
+para acceder a un casillero o elemento de arreglo es necesiario identifcar un indice de fila y columna.
+se define 
+var casillero = ['dario', 'lucas', 'fabio'];
+y se accede a cualquier elemento indicando el indice/posicion por ej:
+
+casillero[1];
+y el resultado del contendio seria "lucas"
