@@ -1,0 +1,14 @@
+Los Objetos se utilizan para guardar información relacionada a algo. Por ejemplo podemos tomar como ejemplo un mueblederopa (objeto)
+en donde cada cajon lo identificamos con una propiedad (key) x ej cajonmedias y a su vez cada cajon contiene una o mas prendas  (valor) 'zokete algodon' (haciendo referencia al cajonmedias). como asi tambien cada cajon puede contener mas objetos (separaciones por tipo de prenda o colores) x ej un arreglo con lista de colores.
+
+Los Métodos podemos decir que son indicaciones para realizar alguna actividad con los elementos del objetos, por ej. del
+cajon_medias sabemos que podemos combinar un 'zokete algodon' con la 'bermuda azul' del cajon_pantalones y a esa indicacion la llamaremos 'metodo de vestirse para salir'
+
+Bucle for…in lo utilizamos para recorrer un objeto (muebleropa) y mostrar las propiedades (cajones y su contenido o metodos)
+de cada cajon y ver que prendas podemos encontrar
+
+
+Notación de puntos vs notación de corchetes la notacion de puntos se usa para identificar/mostrar con mas facilidad de un objeto (muebleropa) el contenido de un cajon (key)   ej. muebleropa.cajonmedias  con ello sabriamos que su contenido es "zokete algodon".
+
+o bien podriamos referirnos utilizando corchetes muebleropa['cajonmedias']="zokete algodon"
+siendo mas practico el uso de puntos para separa una key de su valor.
