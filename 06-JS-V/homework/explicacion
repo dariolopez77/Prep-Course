@@ -1,0 +1,10 @@
+prototype
+se utiliza para definir un prototipo es decir un molde o plantilla para luego contstruir modelo de cosas x ejemplo tengo un objeto llamado 
+comidas y necesito armar uno o mas modelos de dietas lo cual llevan como objeto diferentes comidas, entonces creamos un prototipo o modelos de
+dietas para  personas de acuerdo a su peso por ejemplo que lo definimos mas adelante
+
+Constructors (de Clases)
+se utiliza para crear una plantilla la cual dentro de la plantilla tenemos un constructor de objetos referidos a esa plantilla,
+supontamos que creamos una clase/plantilla de profesinales medicos la cual dentro vamos a crear un constructor de propiedades de objetos
+como por ejemplo nombre,apellido,especialidad,etc. y dentro de la clase puedo definir/crear metodos/funciones para mostrar datos de los
+objetos creados de cada profesional medico
