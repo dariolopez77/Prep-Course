@@ -1,0 +1,3 @@
+ Funciones Callback
+ son Funciones que se crean y se usan  como parametros en otras funciones de las cuales se pueden llamar en cualquier momento dentro de 
+ otra funcion sin alterar el orden en la que se van ejecutando.
